@@ -10,9 +10,12 @@ const input = document.querySelector(".js-input");
 const btn = document.querySelector(".js-button");
 const clues = document.querySelector(".js-clues");
 const attempts = document.querySelector(".js-attempts");
-// const random = getRandomNumber();
 
 function updateClick(){
+  const inputValue = input.value;
+  input.innerHTML = inputValue;
+  console.log(inputValue);
+
 }
 
 
