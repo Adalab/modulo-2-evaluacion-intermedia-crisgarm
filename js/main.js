@@ -17,6 +17,7 @@ function updateClick(){
   input.innerHTML = inputValue;
   console.log(inputValue);
   console.log(random);
+  updateAttempts();
   if (inputValue < 1 || inputValue > 100){
     clues.innerHTML = "El número debe estar entre 1 y 100."
     console.log(clues);
@@ -30,6 +31,12 @@ function updateClick(){
     clues.innerHTML = "Pista: Demasiado bajo."
     console.log(clues);
 }
+}
+
+let numberAttempts = 1;
+
+function updateAttempts(){
+  attempts.innerHTML += numberAttempts++;
 }
 
 btn.addEventListener("click", updateClick);
