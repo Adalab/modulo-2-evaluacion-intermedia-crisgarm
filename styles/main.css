@@ -1,9 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 18px;
+}
+
+.main__title {
+  color: #54585b;
+  font-size: 35px;
+}
+
 .form__label {
   display: block;
   margin-bottom: 10px;
+  color: #54585b;
+}
+
+.form__input {
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  width: auto;
 }
 
 .form__button {
   display: block;
   margin-top: 15px;
+  padding: 8px;
+  text-align: center;
+  background-color: #14d9c4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main__clues {
+  color: #54585b;
+  border: 4px solid #ddd;
+  padding: 10px 5px;
+}
+
+.main__attempts {
+  color: #54585b;
+  border: 4px solid #ddd;
+  padding: 10px 5px;
 }
