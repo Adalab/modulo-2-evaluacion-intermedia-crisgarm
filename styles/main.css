@@ -38,12 +38,14 @@ body {
 }
 
 .main__clues {
+  width: 300px;
   color: #54585b;
   border: 4px solid #ddd;
   padding: 10px 5px;
 }
 
 .main__attempts {
+  width: 300px;
   color: #54585b;
   border: 4px solid #ddd;
   padding: 10px 5px;
