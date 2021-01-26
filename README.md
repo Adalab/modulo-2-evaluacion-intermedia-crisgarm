@@ -14,6 +14,6 @@ Para realizar una versión sencilla del juego hemos realizado las siguientes fun
 
 ## Demo
 
-Para ver el resultado de la aplicación puedes visitar el siguiente enlace: https://beta.adalab.es/modulo-2-evaluacion-intermedia-crisgarm/
+Para ver el resultado de la aplicación puedes visitar el siguiente enlace: https://crisgarm.github.io/guess-the-number/
 
 Este proyecto ha sido desarrollado por **Cristina García Martín**.
